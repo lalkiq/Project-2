@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "League Spartan";
+  height: auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "League Spartan";
+  
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  padding-top: 10px;
+  
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 15px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: stretch;
+  padding-top: 15px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #FF6666;
+  font-size: 20px;
+  
+}
+.nav__span {
+  color: #336699;
+}
+
+.introductions__block {
+  display: flex;
+  margin-top: 130px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-family: "League Spartan";
+  flex-direction: row;
+}
+
+.introductions__block__two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.introductions__header {
+  font-family: "League Spartan";
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.introductions__header-two {
+  font-size: 26px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.intoductions__text {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.introductions__span {
+  font-size: 20px;
+  color: #A4A4A4;
+  font-weight: 400;
+}
+
+.introductions__btn {
+  display: flex;
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.my-work {
+  width: 135px;
+  height: 50px;
+  color: #fff;
+  background-color:#336699 ;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.lets-talk {
+  width: 135px;
+  height: 50px;
+  color: #fff;
+  background-color:#FF6666 ;
+  color: #000;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.wid__block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.bnf__header {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+
+.bnf__span {
+  color: #A4A4A4;
+  font-size: 20px;
+  font-family: "hind";
+}
+
+.conclusion {
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 1146px){
+
+  .wid__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 10em;
+  }
+  .platforms {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: stretch;
+    
+    
+  }
+
+  .plflist__header {
+    text-align: left;
+  }
+
+
+  
+}
+
+
+.plflist__header {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  margin-left: 165px;
+}
+
+.platforms__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 56px;
+}
+
+.aboutme__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 10em;
+  gap: 15em;
+}
+
+.description__block {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.desk__block {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.description__abm {
+  font-family: "Hind";
+  font-size: 20px;
+  color: #DEDEDE;
+  font-weight: 400;
+}
+
+.heart__desk {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Hind";
+  padding-left: 1em;
+}
+
+.abm__card {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
+.upd-upw__block {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.header__upd-upw {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.desk__upd-upw {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6E6D7A;
+}
+
+.conclusion__upd-upw {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FF6666;
+}
+
+.contact__form {
+  display: flex;
+  margin-top: 10em;
+  
+}
+
+
+.contact__section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-right: 139px;
+}
+
+.datafield__block {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.header__cs {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f9f9f9;
+}
+
+.contact__desk {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Hind";
+  color: #dedede;
+}
+
+.header__email {
+  font-size: 18px;
+  color: #6E6D7A;
+  font-weight: 600;
+}
+
+.span__email {
+  color: #dedede;
+  font-size: 20px;
+  font-family: "Hind";
+  font-weight: 500;
+}
+
+.header__follow {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6E6D7A;
+}
+
+.linkedln__logo {
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+.your__data {
+  width: 580px;
+  height: 56px;
+  background-color: #212126;
+  color: #6E6D7A;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Hind";
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.same__text {
+  width: 580px;
+  height: 140px;
+  background-color: #212126;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Hind";
+  color: #6E6D7A;
+  border-radius: 4px;
+  padding: 20px;
+  padding-bottom: 5em;
+}
+
+.git__btn {
+  background-color: #FF6666;
+  width: 171px;
+  height: 48px;
+  border-radius: 4px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 410px;
+}
+
+.footer {
+  background-color: #111113;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding-top: 4em;
+  margin-top: 9em;
+}
+
+.author {
+  display: flex;
+  gap: 1em;
+  margin-left: 3em;
+  
+}
+
+.author__p {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.author__data {
+  color: #A4A4A4;
+  font-family: "Hind";
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.powered__service {
+  display: flex;
+  flex-direction: column;
+  gap:10px ;
+  font-size: 20px;
+  color: #A4A4A4;
+  font-family: "Hind";
+  font-weight: 400;
+  margin-right: 3em;
+}
+
+.hosted {
+  text-decoration: underline;
+  color: #336699;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
